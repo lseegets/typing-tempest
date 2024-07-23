@@ -1,0 +1,9 @@
+.word-input {
+    width: 49vw;
+    padding: 0.5vh;
+    border: 2px solid var(--color-gold);
+    border-radius: 0.25vh;
+    font-family: var(--font-title);
+    font-size: 2em;
+    line-height: 1.5em;
+  }

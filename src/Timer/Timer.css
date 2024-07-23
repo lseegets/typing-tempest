@@ -1,0 +1,9 @@
+.timer-output {
+    position: fixed;
+    top: 1vh;
+    right: 1vh;
+    font-family: var(--font-title);
+    font-size: 4em;
+    color: var(--color-gold);
+    text-shadow: 2px 2px var(--color-dark);
+}

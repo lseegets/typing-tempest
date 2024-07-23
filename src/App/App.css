@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap');
+
+:root {
+  --color-background: #0c013f;
+  --color-dark: #584c74;
+  --color-white: rgb(233, 233, 233);
+  --color-gold: #dbac34;
+  --font-title: "Fondamento", "Grandstander", cursive;
+  --font-default: "Grandstander", cursive;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-background);
+  font-family: var(--font-default);
+}
+
+h1 {
+  margin: 0;
+  padding: 1vw;
+  font-family: var(--font-title);
+  font-size: 3em;
+  text-align: center;
+  color: var(--color-gold);
+  text-shadow: 2px 2px var(--color-dark);
+}
+
+.highscore {
+  position: fixed;
+  top: 1vh;
+  left: 1vh;
+  font-family: var(--font-title);
+  font-size: 2.5em;
+  color: var(--color-gold);
+  text-shadow: 2px 2px var(--color-dark);
+}
+
+.description {
+  width: 50vw;
+  margin: 0 auto;
+  font-family: var(--font-title);
+  font-size: 1.3em;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.content {
+  width: 50vw;
+  margin: 5vh auto;
+}
+
+.score {
+  width: 50vw;
+  margin: 2vh 0;
+  font-family: var(--font-title);
+  text-align: center;
+  font-size: 1.3em;
+  color: var(--color-white);
+}
+
+.restart-button {
+  font-family: var(--font-title);
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  width: 150px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 0.25vw;
+  border-radius: 5px;
+  font-size: 1.25em;
+  border: 2px solid var(--color-gold);
+  text-align: center;
+  display: none;
+}
+
+.restart-button:hover {
+  cursor: pointer;
+}
+
+.words {
+  list-style-type: none;
+  padding: 0;
+  margin: 2.5vh 0;
+}
