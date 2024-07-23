@@ -56,7 +56,7 @@ This project was inspired by a Vanilla JavaScript practice exercise of the Unive
 
 * Enhanced and rebuilt with ReactJS to demonstrate component-based architecture and state management.
 * Changed the project name to Typing Tempest.
-* Updated the game to use words from Shakespeare' *The Tempest*.
+* Modified the game to use words from Shakespeare's *The Tempest*.
 * Adjusted the font and color scheme.
 * Added a reset button to restart the game.
 * Added a high score display.
